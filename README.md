@@ -17,7 +17,7 @@ GET: http://localhost:8080/xyz/token/{id} - gives specific token Details.
 
 PUT: http://localhost:8080/xyz//tokens/{id}/type - tells type of service assigned to the particular token id.
 
-Below API does basic CRUD operations of token and customer.
+Below API does basic CRUD operations of Token and Customer.
 
 POST: http://localhost:8080/xyz/token - creates token with given details.
 
@@ -47,4 +47,6 @@ DELETE: http://localhost:8080/xyz/customer/{customerId} - Deletes given customer
 * While updating token or customer, it is checked whether a token or customer exists with the given ID or not, If it doesn't exist it throws Customer/Token not found with id:{Id}.
 
 * covered Junit test cases using Mockito library.
+
+* And also mentioned ER diagram : BankTokenSystem_ER.png
 
