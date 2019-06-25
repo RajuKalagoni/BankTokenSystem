@@ -1,6 +1,6 @@
 # XYZ Bank Token System instructions:
 
-Do checkout the project from github using the link :
+Do checkout the project from github using the link : https://github.com/RajuKalagoni/BankTokenSystem
 
 It's a maven project, install java, any IDE (recommended to use Intellij) and add the project as Maven Project
 and do Maven clean, install and then run it either in Run/Debug mode.
